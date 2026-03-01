@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda & Estilo • Loja de Roupas</title>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontes e ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="moda">
+    <!-- NAVBAR FIXA -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo" id="logoLoja">
+                <i class="fas fa-tshirt"></i> <span>Moda & Estilo</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#categorias" class="nav-link">Categorias</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="navbar-actions">
+                <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre as roupas." target="_blank" class="btn btn-whatsapp btn-nav-wpp" id="btnNavWpp">
+                    <i class="fab fa-whatsapp"></i> <span>Fale conosco</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sua moda com estilo e personalidade</h1>
+                <p class="hero-subtitle">Roupas femininas e masculinas, acessórios e as últimas tendências com preços especiais para você.</p>
+                <div class="hero-buttons">
+                    <a href="#categorias" class="btn btn-primary">Conheça as coleções</a>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre as roupas." target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Loja de roupas moderna" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre a Moda & Estilo</h2>
+                <p class="section-subtitle">Mais de 15 anos vestindo você com qualidade</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>A <strong>Moda & Estilo</strong> nasceu do sonho de oferecer roupas de qualidade com um atendimento diferenciado. Selecionamos as melhores marcas e tendências para que você encontre o look perfeito para cada momento.</p>
+                    <p><strong>Missão:</strong> Valorizar a autoestima dos nossos clientes através da moda acessível e de qualidade.</p>
+                    <p><strong>Diferencial:</strong> Atendimento personalizado, trocas fáceis e as melhores marcas do mercado.</p>
+                </div>
+                <div class="about-highlight">
+                    <div class="highlight-card">
+                        <i class="fas fa-users"></i>
+                        <h4>+10.000 clientes satisfeitos</h4>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-tags"></i>
+                        <h4>Descontos exclusivos</h4>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-star"></i>
+                        <h4>4.9 avaliações no Google</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS (SERVIÇOS) -->
+    <section class="section" id="categorias">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas categorias</h2>
+                <p class="section-subtitle">Encontre o estilo perfeito para você</p>
+            </div>
+            <div class="services-grid">
+                <!-- Categoria 1 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-tshirt"></i></div>
+                    <h3>Moda Feminina</h3>
+                    <p>Vestidos, blusas, calças, saias e muito mais. Tendências e clássicos.</p>
+                    <div class="tag-novidade">Novidades</div>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre Moda Feminina." class="btn-card-wpp"><i class="fab fa-whatsapp"></i> Consultar</a>
+                </div>
+                <!-- Categoria 2 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Moda Masculina</h3>
+                    <p>Camisas sociais, camisetas, calças, bermudas e moda casual.</p>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre Moda Masculina." class="btn-card-wpp"><i class="fab fa-whatsapp"></i> Consultar</a>
+                </div>
+                <!-- Categoria 3 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-child"></i></div>
+                    <h3>Moda Infantil</h3>
+                    <p>Roupas confortáveis e estilosas para crianças de 0 a 12 anos.</p>
+                    <div class="tag-promocao">Promoção</div>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre Moda Infantil." class="btn-card-wpp"><i class="fab fa-whatsapp"></i> Consultar</a>
+                </div>
+                <!-- Categoria 4 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-shoe-prints"></i></div>
+                    <h3>Calçados</h3>
+                    <p>Tênis, sapatos, sandálias e botas das melhores marcas.</p>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre Calçados." class="btn-card-wpp"><i class="fab fa-whatsapp"></i> Consultar</a>
+                </div>
+                <!-- Categoria 5 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Acessórios</h3>
+                    <p>Bolsas, cintos, bijuterias, óculos e complementos.</p>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre Acessórios." class="btn-card-wpp"><i class="fab fa-whatsapp"></i> Consultar</a>
+                </div>
+                <!-- Categoria 6 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-swimmer"></i></div>
+                    <h3>Moda Praia</h3>
+                    <p>Biquínis, maiôs, sungas e saídas de praia.</p>
+                    <div class="tag-novidade">Verão 2026</div>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre Moda Praia." class="btn-card-wpp"><i class="fab fa-whatsapp"></i> Consultar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section section-diff">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por que comprar conosco?</h2>
+                <p class="section-subtitle">Qualidade, confiança e estilo</p>
+            </div>
+            <div class="differentials-list">
+                <div class="diff-item"><i class="fas fa-credit-card"></i> <span>Parcelamos em até 6x sem juros</span></div>
+                <div class="diff-item"><i class="fas fa-exchange-alt"></i> <span>Trocas fáceis em até 30 dias</span></div>
+                <div class="diff-item"><i class="fas fa-tags"></i> <span>Descontos exclusivos no WhatsApp</span></div>
+                <div class="diff-item"><i class="fas fa-truck"></i> <span>Entrega para todo Brasil</span></div>
+                <div class="diff-item"><i class="fas fa-ruler-combined"></i> <span>Guia de tamanhos personalizado</span></div>
+                <div class="diff-item"><i class="fas fa-gift"></i> <span>Embalagem especial para presente</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que nossas clientes dizem</h2>
+                <p class="section-subtitle">Feedbacks reais de quem já comprou</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Amei minha compra! Vestido perfeito, tecido de qualidade e entrega super rápida. Já quero comprar mais!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Camila Rodrigues</h4>
+                            <span>Cliente fiel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Atendimento excelente pelo WhatsApp, tirei todas as dúvidas sobre tamanhos. A camisa chegou perfeitamente."</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Rafael Oliveira</h4>
+                            <span>Comprador recente</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Melhor loja de roupas da região! Variedade incrível e preços justos. Recomendo demais!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Juliana Santos</h4>
+                            <span>Avaliação Google</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS EM DESTAQUE -->
+    <section class="section featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lançamentos da semana</h2>
+                <p class="section-subtitle">As tendências que estão chegando</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <i class="fas fa-vest"></i>
+                    <h4>Coleção Outono</h4>
+                    <p>Tricôs e cardigans</p>
+                </div>
+                <div class="featured-item">
+                    <i class="fas fa-shoe-prints"></i>
+                    <h4>Tênis Esportivos</h4>
+                    <p>Conforto e estilo</p>
+                </div>
+                <div class="featured-item">
+                    <i class="fas fa-hat-cowboy"></i>
+                    <h4>Acessórios</h4>
+                    <p>Chapéus e bolsas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHAMADA FINAL (CTA) -->
+    <section class="section cta-section">
+        <div class="container cta-container">
+            <h2 class="cta-title">Pronta para renovar o guarda-roupa?</h2>
+            <p class="cta-subtitle">Consulte disponibilidade e tamanhos pelo WhatsApp</p>
+            <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre as roupas disponíveis." target="_blank" class="btn btn-whatsapp btn-large" id="ctaWpp"><i class="fab fa-whatsapp"></i> Falar com consultor(a)</a>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em contato</h2>
+                <p class="section-subtitle">Estamos prontos para atender você</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> <span>Rua da Moda, 456 - Jardins, São Paulo/SP</span></div>
+                    <div class="info-item"><i class="fas fa-phone-alt"></i> <span>(11) 3456-7890</span></div>
+                    <div class="info-item"><i class="fab fa-whatsapp"></i> <span>(11) 99999-9999</span></div>
+                    <div class="info-item"><i class="fas fa-clock"></i> <span>Seg-Sáb: 9h às 20h | Dom: 14h às 18h</span></div>
+                    <div class="info-item"><i class="fas fa-envelope"></i> <span>contato@modaestilo.com.br</span></div>
+                    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre as roupas." target="_blank" class="btn btn-whatsapp contact-wpp-btn"><i class="fab fa-whatsapp"></i> Chamar no WhatsApp</a>
+                </div>
+                <div class="map-placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197501234567!2d-46.654321!3d-23.561234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa987%3A0x23f8a8d9d9b9f9b9!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1234567890" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-card">
+                <h3><i class="fas fa-envelope-open-text"></i> Receba novidades</h3>
+                <p>Cadastre-se e ganhe 10% OFF na primeira compra</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3><i class="fas fa-tshirt"></i> Moda & Estilo</h3>
+                    <p>Vista-se com estilo, vista-se com qualidade.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links rápidos</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#categorias">Categorias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Moda & Estilo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO WHATSAPP FLUTUANTE -->
+    <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre as roupas." target="_blank" class="whatsapp-float" id="wppFloat" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JS externo -->
+    <script src="script.js"></script>
+</body>
+</html>
